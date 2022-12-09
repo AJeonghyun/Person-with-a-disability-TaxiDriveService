@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- mapper DTD 선언 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- SQL Mapping -->
+<mapper namespace="Taxi">
+    <insert id="insertDrive">
+        insert into DRIVE (username,phonenumber,departure,arrival,grade,reserveDate,wheelchair)
+        values
+            (#{username}, #{phonenumber}, #{departure},#{arrival},#{grade},#{reserveDate},#{wheelchair})
+    </insert>
+
+    <update id="updateDrive">
+        update DRIVE
+        set username=#{username}, phonenumber=#{phonenumber}, departure=#{departure}, arrival=#{arrival},grade=#{grade},reserveDate=#{reserveDate},wheelchair=#{wheelchair}
+        where id=#{id}
+    </update>
+    <delete id="deleteDrive">
+        delete from DRIVE where id=#{id}
+    </delete>
+    <select id="getDrive" resultType="taxi">
+
+            select * from DRIVE
+                     where id = #{id}
+
+    </select>
+    <select id="getDriveList" resultType="taxi">
+            select * from DRIVE order by id desc
+    </select>
+</mapper>
