@@ -13,7 +13,7 @@ public class TaxiController {
 
     @Autowired
     TaxiDAO taxiDAO;
-    @RequestMapping("/drive")
+    @RequestMapping("/")
     public String home() {
         return "/drive/index";
     }

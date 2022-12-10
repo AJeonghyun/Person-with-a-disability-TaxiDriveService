@@ -16,8 +16,7 @@
     <meta name="author" content="YegyeongSeo, JeonghyunAn">
     <title>TaxiCall for disabilities</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="css/basic.css" rel="stylesheet">
     <%-- reference for using google font free
     https://developers.google.com/fonts/docs/getting_started
@@ -52,19 +51,19 @@
 <main>
     <%--    <div id="bg-img"></div>--%>
     <%--    <img src="img/test.png" style="background-size: cover">--%>
-    <div>
-        <p class="main-button kr">택시 호출하기</p>
+    <div class="main-button1 kr">
+        <span>택시 호출</span>
     </div>
     <div class="vl"></div>
-    <div>
-        <p class="main-button kr">호출 내역</p>
+    <div class="main-button2 kr" onclick="location.href='./drive/list'">
+        <span>호출 내역</span>
     </div>
 </main>
 <footer class="navbar fixed-bottom">
-    <div class="bottom left">
+    <div class="bottom">
         <p>고객행복센터<br>054-260-1919</p>
     </div>
-    <div class="bottom right">
+    <div class="bottom">
         <div><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="25px" width="25px"></div>
         <div><p>Developers</p></div>
         <div>
