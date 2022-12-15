@@ -12,17 +12,17 @@ public class TaxiVO {
     private String arrival;
     private String grade;
 
-    private Date reserveDate;
+    private String reserveDate;
 
-    public String getReserDate() {
+    public Date getReserDate() {
         return reserDate;
     }
 
-    public void setReserDate(String reserDate) {
+    public void setReserDate(Date reserDate) {
         this.reserDate = reserDate;
     }
-
-    private String reserDate;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date reserDate;
     private boolean wheelchair;
 
     public int getId() {
@@ -73,11 +73,11 @@ public class TaxiVO {
         this.grade = grade;
     }
 
-    public Date getReserveDate() {
+    public String getReserveDate() {
         return reserveDate;
     }
 
-    public void setReserveDate(Date reserveDate) {
+    public void setReserveDate(String reserveDate) {
         this.reserveDate = reserveDate;
     }
 

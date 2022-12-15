@@ -51,7 +51,7 @@
 <main>
     <%--    <div id="bg-img"></div>--%>
     <%--    <img src="img/test.png" style="background-size: cover">--%>
-    <div class="main-button1 kr">
+    <div class="main-button1 kr" onclick="location.href='./drive/add'">
         <span>택시 호출</span>
     </div>
     <div class="vl"></div>
