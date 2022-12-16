@@ -44,36 +44,13 @@
 </script>
 <body>
 
-<div class="container-fluid d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom ">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <span class="fs-2" onclick="location.reload()">자유게시판</span>
-    </a>
-    <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active " aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">NoStlye</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Example</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-    </ul>
-</div>
 <nav class="navbar navbar-light col-12">
     <div class="container-fluid">
-        <a class="navbar-brand fs-2">게시판 목록</a>
-        <a href="../login/logout">logout</a>
-        <a href="../">main</a>
+        <a class="navbar-brand fs-2">택시 호출 목록</a>
         <form class="d-flex">
-            <div class="dropdown me-2">
-                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Select id
-                    <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">3</a></li>
-                </ul>
-            </div>
-            <input class="form-control me-3" type="search" placeholder="title">
-            <button class="btn btn-outline-primary me-2" type="submit">Search</button>
-            <button class="btn btn-success me-2" type="button" onclick="location.href='add'">Add</button>
-
+            <button class="btn btn-outline-danger me-2" type="button" onclick="location.href='../login/logout'">Logout</button>
+            <button class="btn btn-outline-primary me-2" type="button" onclick="location.href='../'">Main</button>
+            <button class="btn btn-outline-success me-2" type="button" onclick="location.href='add'">Add</button>
         </form>
     </div>
 </nav>
@@ -128,5 +105,6 @@
         </tbody>
     </table>
 </div>
+
 </body>
 </html>

@@ -22,28 +22,28 @@
   <table id="edit">
     <div class="col-sm-6 m-3">
     <tr>
-      <label for="username" class="form-label style="font-weight:="bold" ></label>
+      <label for="username" class="form-label style="font-weight:="bold" >이름</label>
       <input type="text" class="form-control" name="username" id="username" placeholder="이름" />
     </tr>
     </div>
 
     <div class="col-sm-6 m-3">
     <tr>
-      <label for="phonenumber" class="form-label style="font-weight:="bold" ></label>
+      <label for="phonenumber" class="form-label style="font-weight:="bold" >전화번호</label>
       <input type="text" name="phonenumber" id="phonenumber" class="form-control" placeholder="전화번호 EX)010-xxxx-xxxx">
     </tr>
     </div>
 
     <div class="col-sm-6 m-3">
     <tr>
-      <label for="departure" class="form-label style="font-weight:="bold" ></label>
+      <label for="departure" class="form-label style="font-weight:="bold" >출발지</label>
       <input type="text" name="departure" id="departure" class="form-control" placeholder="출발지">
     </tr>
     </div>
 
     <div class="col-sm-6 m-3">
     <tr>
-      <label for="arrival" class="form-label style="font-weight:="bold" ></label>
+      <label for="arrival" class="form-label style="font-weight:="bold" >도착지</label>
       <input type="text" name="arrival" id="arrival" class="form-control" placeholder="도착지">
     </tr>
     </div>
@@ -51,6 +51,7 @@
     <div class="col-sm-6 m-4 ">
     <tr>
       <select name="grade" id="grade" class="form-control form-select" aria-label="장애등급">
+        <option value="none">장애등급</option>
         <option value="1">1등급</option>
         <option value="2">2등급</option>
         <option value="3">3등급</option>
@@ -63,23 +64,27 @@
 
     <div class="col-sm-6 m-3 ">
     <tr>
-      <label for="reserveDate" class="form-label style="font-weight:="bold" ></label>
+      <label for="reserveDate" class="form-label style="font-weight:="bold" >예약날짜</label>
       <input type="date" name="reserveDate" id="reserveDate" class="form-control">
     </tr>
     </div>
 
-    <div class="form-check col-sm-6 m-3">
-      <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair" value="true">
-      <label class="form-check-label" for="wheelchair">
-        있음
-      </label>
+    <label class="mt-3">휠체어</label>
+    <div>
+      <div class="form-check col-sm-6 mt-2">
+        <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair" value="true">
+        <label class="form-check-label" for="wheelchair">
+          있음
+        </label>
+      </div>
+      <div class="form-check col-sm-6 mt-2">
+        <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair2" value="false">
+        <label class="form-check-label" for="wheelchair2">
+          없음
+        </label>
+      </div>
     </div>
-    <div class="form-check col-sm-6 m-3">
-      <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair2" value="false">
-      <label class="form-check-label" for="wheelchair2">
-        없음
-      </label>
-    </div>
+
     <div class="m-3">
   <button class="btn btn-outline-success me-2" type="button" onclick="location.href='list'">View All Records</button>
   <button class="btn btn-outline-primary me-2" type="submit">Add</button>

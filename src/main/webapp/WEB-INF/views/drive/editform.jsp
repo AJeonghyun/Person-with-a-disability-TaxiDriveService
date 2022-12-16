@@ -55,6 +55,7 @@
         <div class="col-sm-6 m-4">
         <tr>
             <select name="grade" id="grade" class="form-control form-select" aria-label="장애등급">
+                <option value="none">장애등급</option>
                 <option value="1">1등급</option>
                 <option value="2">2등급</option>
                 <option value="3">3등급</option>
@@ -62,6 +63,7 @@
                 <option value="5">5등급</option>
                 <option value="6">6등급</option>
             </select>
+        </tr>
         </div>
 
         <div class="col-sm-6 m-3">
@@ -71,27 +73,21 @@
             </tr>
         </div>
 
-<%--        <div class="col-sm-6 m-3 form-check">--%>
-<%--            <tr>--%>
-<%--                <label for="wheelchair" class="form-label style="font-weight:="bold" ></label>--%>
-<%--                <input type="radio" name="wheelchair" id="wheelchair" class="form-control" value="true" 있음>--%>
-<%--                <label for="wheelchair1" class="form-label style="font-weight:="bold" ></label>--%>
-<%--                <input type="radio" name="wheelchair" id="wheelchair1" class="form-control" value="false" 없음>--%>
-<%--            </tr>--%>
-<%--        </div>--%>
-        <div class="form-check col-sm-6 m-3">
+        <label class="mt-3">휠체어</label>
+        <div>
+        <div class="form-check col-sm-6 mt-2">
             <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair" value="true">
             <label class="form-check-label" for="wheelchair">
                 있음
             </label>
         </div>
-        <div class="form-check col-sm-6 m-3">
+        <div class="form-check col-sm-6 mt-2">
             <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair2" value="false">
             <label class="form-check-label" for="wheelchair2">
                 없음
             </label>
         </div>
-
+        </div>
         <div class="m-3">
             <button class="btn btn-outline-success me-2" type="button" onclick="history.back()">View All Records</button>
             <button class="btn btn-outline-primary me-2" type="submit">수정하기</button>
