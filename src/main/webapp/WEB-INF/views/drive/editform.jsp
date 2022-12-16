@@ -65,6 +65,27 @@
             </tr>
         </div>
 
+<%--        <div class="col-sm-6 m-3 form-check">--%>
+<%--            <tr>--%>
+<%--                <label for="wheelchair" class="form-label style="font-weight:="bold" ></label>--%>
+<%--                <input type="radio" name="wheelchair" id="wheelchair" class="form-control" value="true" 있음>--%>
+<%--                <label for="wheelchair1" class="form-label style="font-weight:="bold" ></label>--%>
+<%--                <input type="radio" name="wheelchair" id="wheelchair1" class="form-control" value="false" 없음>--%>
+<%--            </tr>--%>
+<%--        </div>--%>
+        <div class="form-check col-sm-6 m-3">
+            <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair" value="true">
+            <label class="form-check-label" for="wheelchair">
+                있음
+            </label>
+        </div>
+        <div class="form-check col-sm-6 m-3">
+            <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair2" value="false">
+            <label class="form-check-label" for="wheelchair2">
+                없음
+            </label>
+        </div>
+
         <div class="m-3">
             <button class="btn btn-outline-success me-2" type="button" onclick="history.back()">View All Records</button>
             <button class="btn btn-outline-primary me-2" type="submit">수정하기</button>

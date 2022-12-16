@@ -61,6 +61,19 @@
       <input type="date" name="reserveDate" id="reserveDate" class="form-control">
     </tr>
     </div>
+
+    <div class="form-check col-sm-6 m-3">
+      <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair" value="true">
+      <label class="form-check-label" for="wheelchair">
+        있음
+      </label>
+    </div>
+    <div class="form-check col-sm-6 m-3">
+      <input class="form-check-input" type="radio" name="wheelchair" id="wheelchair2" value="false">
+      <label class="form-check-label" for="wheelchair2">
+        없음
+      </label>
+    </div>
     <div class="m-3">
   <button class="btn btn-outline-success me-2" type="button" onclick="location.href='list'">View All Records</button>
   <button class="btn btn-outline-primary me-2" type="submit">Add</button>
