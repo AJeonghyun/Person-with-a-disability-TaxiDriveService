@@ -52,16 +52,17 @@
             <form:input path="arrival" class="form-control"/></tr>
         </div>
 
-        <div class="col-sm-6 m-4">
+        <div class="col-sm-6 m-3">
         <tr>
+            <label class="form-label">장애등급</label>
             <select name="grade" id="grade" class="form-control form-select" aria-label="장애등급">
-                <option value="none">장애등급</option>
-                <option value="1">1등급</option>
-                <option value="2">2등급</option>
-                <option value="3">3등급</option>
-                <option value="4">4등급</option>
-                <option value="5">5등급</option>
-                <option value="6">6등급</option>
+                <option value="" disabled selected>등급을 선택해주세요</option>
+                <option value="1">1급</option>
+                <option value="2">2급</option>
+                <option value="3">3급</option>
+                <option value="4">4급</option>
+                <option value="5">5급</option>
+                <option value="6">6급</option>
             </select>
         </tr>
         </div>
