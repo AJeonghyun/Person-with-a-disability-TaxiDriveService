@@ -48,10 +48,16 @@
     </tr>
     </div>
 
-    <div class="col-sm-6 m-3 ">
+    <div class="col-sm-6 m-4 ">
     <tr>
-      <label for="grade" class="form-label style="font-weight:="bold" ></label>
-      <input type="text" name="grade" id="grade" class="form-control" placeholder="장애등급">
+      <select name="grade" id="grade" class="form-control form-select" aria-label="장애등급">
+        <option value="1">1등급</option>
+        <option value="2">2등급</option>
+        <option value="3">3등급</option>
+        <option value="4">4등급</option>
+        <option value="5">5등급</option>
+        <option value="6">6등급</option>
+      </select>
     </tr>
     </div>
 
