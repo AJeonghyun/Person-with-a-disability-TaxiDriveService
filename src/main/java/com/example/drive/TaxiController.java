@@ -60,4 +60,8 @@ public class TaxiController {
         return "redirect:../list";
     }
 
+    @RequestMapping(value = "/drive/intro", method = RequestMethod.GET)
+    public String showIntro(){
+        return "/drive/intro";
+    }
 }
