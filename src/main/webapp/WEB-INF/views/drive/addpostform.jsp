@@ -13,7 +13,7 @@
   <title>Add New Post</title>
 </head>
 <body>
-<div class="py-5 text-center">
+<div class="py-3 text-center">
   <h1>택시 호출 서비스</h1>
 </div>
 

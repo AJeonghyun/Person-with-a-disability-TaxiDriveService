@@ -18,7 +18,7 @@
     <title>Edit form</title>
 </head>
 <body>
-<div class="py-5 text-center">
+<div class="py-3 text-center">
     <h1>택시 호출 서비스</h1>
 </div>
 <div class="col-md-7 col-lg-8 d-flex flex-wrap justify-content-center container-fluid">
