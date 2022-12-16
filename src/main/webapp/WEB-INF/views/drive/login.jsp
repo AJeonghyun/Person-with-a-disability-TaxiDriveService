@@ -10,7 +10,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-    <title>Title</title>
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
   <style>
     img,label {display: inline-block;}
     label {width:130px}
@@ -20,13 +22,13 @@
 
 <body>
 <div style="width:100%;text-align: center;padding-top:100px">
-  <img src="../img/puppy.jpeg" height="250">
+  <img src="../img/test.png" height="300">
 
   <form method="post" action="loginok">
-    <div><label>User ID: </label><input type="text" name="userid"/></div>
-    <div><label>Password: </label>
+    <div class="mt-3"><label>User ID: </label><input type="text" name="userid"/></div>
+    <div class="mt-3"><label>Password: </label>
          <input type="password" name="password"/></div>
-    <button type="submit">login</button>
+    <button class="btn btn-secondary btn-lg btn-block active mt-3" type="submit">login</button>
   </form>
 </div>
 </body>

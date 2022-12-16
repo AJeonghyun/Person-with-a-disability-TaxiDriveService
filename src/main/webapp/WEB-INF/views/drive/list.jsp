@@ -42,7 +42,7 @@
         if(a) location.href='delete/'+id;
     }
 </script>
-<body>
+<body class="p-3">
 
 <nav class="navbar navbar-light col-12">
     <div class="container-fluid">

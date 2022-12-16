@@ -53,13 +53,6 @@
         <a href="./drive/intro">서비스 소개글 보기</a><br>
         <p>고객행복센터<br>054-260-1919</p>
     </div>
-    <div class="link align-middle bottom">
-        Deployment link<br>
-        <a href="walab.handong.edu:8080/p1_21900360_1">YegyeongSeo</a><br>
-        <a href="walab.handong.edu:8080/p1_21900423_1">JeonghyunAn</a>
-        <hr>
-        <a href="https://github.com/AJeonghyun">Project Source</a>
-    </div>
     <div class="bottom">
         <div><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="25px" width="25px"></div>
         <div><p>Developers</p></div>
